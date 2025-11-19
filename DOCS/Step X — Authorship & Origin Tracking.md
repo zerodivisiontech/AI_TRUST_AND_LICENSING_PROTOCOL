@@ -1,158 +1,106 @@
-# Step X — Authorship & Origin Tracking (Public Version)
+# Step X – Authorship (Public Overview)
 
-## Overview
+Authorship in ATLP is the principle that all meaningful AI actions, decisions, and outputs should be traceable to a responsible human or organizational actor. This does **not** expose identities, signatures, key structures, or internal mechanisms. Instead, it establishes the conceptual expectation that every AI system operating under ATLP has clear ownership and accountability.
 
-Authorship and origin tracking form one of the core pillars of the AI Trust & Licensing Protocol (ATLP).
-
-In an era where AI systems can generate vast amounts of content — text, images, code, decisions, and actions —  
-it becomes critical to know:
-
-> **“Who created this?”  
-> “What model generated this?”  
-> “Has this content been altered?”  
-> “Can this output be trusted?”**
-
-Step X introduces the public-facing explanation of how ATLP handles transparency, attribution, and origin integrity.
-
-This version is conceptual only.  
-All technical and cryptographic implementations remain private in the Master Specification.
+This document provides a high-level, public-safe description of what authorship means and why it matters, while all internal mechanisms remain private in the ATLP Gold Standard Specification.
 
 ---
 
-## Why Authorship Matters
+## 1. What Authorship Means in ATLP
 
-Modern AI faces several attribution problems:
+Authorship represents:
 
-### 🔹 1. **Impersonation**
-Anyone can claim an AI output was produced by them or their model.
+- **Ownership:** A human or organization stands behind an AI system.
+- **Accountability:** AI actions reflect the responsibilities of its developer or sponsor.
+- **Attribution:** Significant outputs or decisions have a known source.
+- **Responsibility:** The author is responsible for correct licensing, safe use, and updates.
 
-### 🔹 2. **Misattribution**
-Developer-created models can have their outputs stolen or relabeled.
-
-### 🔹 3. **Content without verifiable origin**
-Most AI-generated content has no embedded metadata that proves:
-- where it came from  
-- which model produced it  
-- under what license  
-
-### 🔹 4. **Accountability gaps**
-Without authorship, harmful or unauthorized AI outputs cannot be traced back.
-
-ATLP provides a structure so developers, platforms, and users can trust the origin of AI-generated content.
+Authorship is a *conceptual binding*, not a technical explanation.  
+All technical details remain confidential.
 
 ---
 
-# Goals of Authorship in ATLP
+## 2. Why Authorship Matters
 
-Authorship in ATLP accomplishes:
+Authorship ensures:
 
-### ✔ Clear attribution  
-Every output has a verifiable source.
+- Trust: Users know who is responsible for an AI system.
+- Clarity: Deployment intent and boundaries are clearly declared.
+- Safety: Systems behave within defined expectations.
+- Accountability: Misuse or misconfiguration can be addressed constructively.
+- Reliability: AI-generated actions have meaningful lineage.
 
-### ✔ Developer protection  
-Model creators can prove their work and assert licensing rights.
-
-### ✔ Platform trust  
-Platforms can differentiate between:
-- compliant outputs  
-- tampered outputs  
-- unknown or spoofed outputs  
-
-### ✔ Accountability  
-If a model behaves incorrectly, outputs can be traced back to the source model and developer.
-
-### ✔ Integrity  
-Authorship metadata prevents unauthorized modification or impersonation.
+Authorship protects both developers and end users by creating a transparent, trustworthy environment.
 
 ---
 
-# Public Authorship Concepts
+## 3. What Authorship Does *Not* Reveal Publicly
 
-This public version explains *what* authorship means in ATLP, but does not expose internal implementations.
+ATLP explicitly does **not** disclose:
 
-### 🔸 1. **Origin Metadata**
-Outputs should carry transparent metadata indicating:
-- the creating model  
-- the license used  
-- high-level provenance data  
-- timestamp and basic trace info  
+- how authorship is verified  
+- how authorship connects to identity  
+- any signature structures  
+- any internal authorship metadata  
+- authorship-to-license mechanisms  
+- authorship validation logic  
+- revocation paths  
+- delegation mechanics  
+- trust or enforcement integrations  
+- any internal cryptographic flows  
+- binding or lineage algorithms  
 
-(Exact fields and formats remain private.)
-
-### 🔸 2. **Model Identity**
-Each AI participating in ATLP has a **unique, verifiable identity**.
-
-Identity is used to:
-- verify authorship  
-- tie actions to a specific model  
-- support Trust Score (Step E) adjustments  
-
-### 🔸 3. **Attribution Chain**
-ATLP supports the concept of an attribution chain:
-- which model generated the output  
-- which intermediate agents touched it  
-- which user or system requested it  
-
-### 🔸 4. **Public Audibility**
-Public platforms can confirm:
-- the origin of AI actions  
-- whether content has been altered  
-- whether the creator’s license allows that use  
+All technical mechanisms are part of the **private ATLP Gold Standard** and are intentionally undisclosed for security and integrity reasons.
 
 ---
 
-# How Authorship Connects to the Rest of ATLP
+## 4. Public Expectations for Authors
 
-Authorship ties every major part of the protocol together:
+Developers and organizations adopting ATLP commit to:
 
-### 🔹 Licensing (Step B)
-Licenses apply to models and their outputs — authorship proves ownership.
+- declaring the intended purpose of their AI system  
+- maintaining safe and responsible deployment  
+- updating the system responsibly  
+- respecting licensing boundaries  
+- ensuring transparent ownership  
 
-### 🔹 Verification (Step C)
-Verification uses authorship metadata to confirm the correct model acted.
-
-### 🔹 Trust Score (Step E)
-Trust depends on reliable provenance and consistent behavior tied to identity.
-
-### 🔹 Enforcement (Step H)
-Violations must be linked to the correct model or agent — authorship enables that.
-
-### 🔹 Standardization (Step F)
-Industry adoption requires consistent authorship rules across platforms.
+These expectations form the foundation of ATLP’s trust model without exposing internal identity or authorship systems.
 
 ---
 
-# Industry Relevance
+## 5. Relationship to Other Steps (High-Level Only)
 
-Authorship is becoming one of the most important problems in modern AI.
+Authorship interacts conceptually with:
 
-ATLP positions itself to become the global standard for:
+- **Step B (Identity):** Publicly, authorship implies a responsible party exists.  
+  Internal identity mechanisms are never disclosed.
 
-- responsible AI output identification  
-- generative content attribution  
-- protecting developers and IP  
-- proving originality  
-- building long-term platform trust  
+- **Step C (License Schema):** The author selects or defines the license governing their system.
 
-This is the kind of standard future AI companies, creators, and platforms will align behind.
+- **Step E (Verification):** ATLP conceptually evaluates whether a system behaves within its declared permissions.
+
+- **Step H (Enforcement):** Consequences for misuse apply to the responsible author or entity (details private).
+
+These relationships remain conceptual in public documentation.
 
 ---
 
-# Public vs Internal View
+## 6. Commitment to Privacy
 
-This public document includes:
-- what authorship means  
-- the purpose behind origin tracking  
-- why it matters to trust and licensing  
-- how it fits into ATLP’s layers  
+ATLP protects both developers and organizations by ensuring that:
 
-Private documents include:
-- evidence schema  
-- signature formats  
-- cryptographic origin hashing  
-- chain-of-custody logic  
-- verification → authorship linking  
-- internal metadata fields  
+- no identifying information is exposed publicly  
+- no authorship metadata is visible or queryable  
+- no sensitive internals appear in public documentation  
+- authorship cannot be reverse-engineered  
+- internal flows remain secure and private  
 
-These remain proprietary and patent-protected.
+---
+
+## Summary
+
+Authorship is a core pillar of ATLP.  
+It ensures that AI behavior is tied to a responsible human or organization, creating trust and accountability without exposing any private information, technical mechanisms, or internal systems.
+
+This hardened version of Step X maintains transparency where appropriate while keeping all sensitive elements confidential.
 
