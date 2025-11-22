@@ -152,35 +152,54 @@ High-trust, well-licensed models may become preferred options across platforms.
 
 ---
 
-# Ecosystem Vision for Developers
+#AI TRUST & LICENSING PROTOCOL — PHASE 1 EXPORT
+PATENT PENDING (2025)
 
-ATLP intends to support a future where:
-- AI agents operate responsibly  
-- verification is a shared standard  
-- developers can prove ownership  
-- trustworthy behavior is rewarded  
-- bad actors are filtered out  
-- interoperability is natural  
-- AI ecosystems become safer for everyone  
+Step D — Evidence Layer, Logging Standards, and Traceability
+D1. Purpose
 
-Developers are core stakeholders in this vision.
+Step D defines how AI actions are recorded, evidenced, and validated through standardized logging.
 
----
+D2. Evidence Types
 
-# Public vs Internal View
+Soft Evidence: Reasoning, citations, internal safety chains
 
-This public document explains:
-- how developers should “think” about ATLP  
-- how to align with the trust framework  
-- high-level best practices  
-- public-facing responsibilities  
+Hard Evidence: Cryptographic signatures, verifiable context snapshots
 
-The private documents include:
-- detailed verification inputs  
-- rule-layer boundaries  
-- trust enforcement triggers  
-- evidence formats  
-- internal safety logic  
+Event Logs: Time-stamped records of critical decisions
 
-These remain proprietary and patent-protected.
+D3. Evidence Requirements
 
+High-impact actions require both soft and hard evidence.
+
+Low-impact actions may require soft evidence only.
+
+All evidence must be exportable on audit.
+
+D4. Traceability Standards
+
+Every decision must be reconstructable through:
+
+Input context
+
+Model chain
+
+Validation steps
+
+Output explanation
+
+D5. Required Logging Events
+
+License checks
+
+Boundary checks
+
+Enforcement events
+
+Audit requests
+
+Major outputs requiring verification
+
+D6. Scope of Step D
+
+Evidence rules here feed directly into Step E (Verification).
